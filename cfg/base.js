@@ -35,8 +35,7 @@ module.exports = {
       sources: `${defaultSettings.srcPath}/sources/`,
       stores: `${defaultSettings.srcPath}/stores/`,
       styles: `${defaultSettings.srcPath}/styles/`,
-      config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV,
-      'react/lib/ReactMount': 'react-dom/lib/ReactMount'
+      config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV
     }
   },
   module: {}
